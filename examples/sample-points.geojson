@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "京津冀示例设施",
+  "features": [
+    {"type":"Feature","properties":{"name":"北京站点","score":82,"category":"综合"},"geometry":{"type":"Point","coordinates":[116.4074,39.9042]}},
+    {"type":"Feature","properties":{"name":"天津站点","score":68,"category":"交通"},"geometry":{"type":"Point","coordinates":[117.2009,39.0842]}},
+    {"type":"Feature","properties":{"name":"石家庄站点","score":75,"category":"公共服务"},"geometry":{"type":"Point","coordinates":[114.5149,38.0428]}}
+  ]
+}

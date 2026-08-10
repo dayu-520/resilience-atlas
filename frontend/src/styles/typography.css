@@ -1,0 +1,73 @@
+/*
+ * Readability pass for the map workspace.
+ * The sign-in hero already has a comfortable type scale, so these rules focus
+ * on dense operational panels without increasing the panel width.
+ */
+
+/* Top navigation: primary names are clear, decorative brand text stays compact. */
+.workspace-switch small,.user-menu small{font-size:10px}
+.workspace-switch b,.user-menu b{font-size:12px}
+.connection,.top-actions button{font-size:10px}
+
+/* Panel hierarchy. */
+.panel-header h2{font-size:15px}
+.panel-header p{font-size:11px}
+.section-heading h3{font-size:14px}
+.section-heading span,.section-heading button{font-size:11px}
+.panel-hint,.read-only-note{font-size:11px}
+
+/* Floating map information remains compact but readable. */
+.floating-toc header span,.floating-toc>p,.floating-toc button>span{font-size:11px}
+.feature-row{font-size:11px}
+.identify-card header small,.identify-card header p,.identify-list small,.identify-card footer{font-size:9px}
+.identify-card h3{font-size:13px}
+.identify-summary,.identify-list button,.identify-empty{font-size:10px}
+.identify-list b{font-size:11px}
+
+/* Data library and loaded layers. */
+.mode-switcher b,.upload-zone b,.dataset-title b,.layer-main b{font-size:12px}
+.mode-switcher small,.upload-zone p,.dataset-info p,.dataset-info em,.layer-main span,.layer-main em{font-size:10px}
+.search-box input{font-size:11px}
+.dataset-title span,.dataset-info small{font-size:9px}
+.dataset-actions button{font-size:10px}
+.empty-state b{font-size:13px}
+.empty-state span{font-size:11px}
+
+/* Upload dialog: independent of the side panel, shorter and centered. */
+.upload-modal{width:min(560px,calc(100vw - 24px))}
+.upload-modal header span,.pending-row .extension,.pending-row small{font-size:10px}
+.upload-modal h2{font-size:17px}
+.projection-tip{font-size:11px}
+.pending-row input,.field-label select,.field-label textarea,.number-pair input,.invite-card select{font-size:12px}
+.upload-modal footer>span{font-size:11px}
+
+/* Symbology controls: labels grow more than numeric helper text. */
+.back-link{font-size:11px}
+.style-layer-title h3{font-size:13px}
+.style-layer-title p,.control-title span,.field-label,.control-note,.color-controls label>span,.color-controls code,.ramp-options span,.number-pair label,.legend-list>div,.continuous-legend>div{font-size:10px}
+.control-title b{font-size:12px}
+.range-row,.segmented button{font-size:11px}
+
+/* Team, permissions and platform account administration. */
+.invite-card b,.platform-admin-card>header b{font-size:12px}
+.invite-card small,.platform-admin-card>header small{font-size:10px}
+.invite-card input{font-size:12px}
+.avatar{font-size:11px}
+.member-list article b,.platform-account-list article b{font-size:11px}
+.member-list article b em,.platform-account-list article b em{font-size:9px}
+.member-list article>div span,.platform-account-list article>div>span,.platform-account-list article small{font-size:10px}
+.member-role,.permission-grid b,.account-status,.block-account,.restore-account{font-size:10px}
+.permission-grid span,.platform-admin-card>p{font-size:9px}
+
+/* Settings and system feedback. */
+.theme-choices b,.instruction-list b,.shortcut-list b,.about-card b{font-size:11px}
+.theme-choices span,.instruction-list small,.about-card span{font-size:9px}
+.shortcut-list kbd{font-size:9px}
+.toast{font-size:12px}
+.busy-overlay span,.boot-screen small{font-size:11px}
+
+@media(max-width:760px){
+  .upload-modal{width:min(520px,100%);justify-self:center;align-self:center}
+  .panel-header h2{font-size:14px}
+  .section-heading h3{font-size:13px}
+}

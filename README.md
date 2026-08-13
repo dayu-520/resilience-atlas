@@ -1,10 +1,10 @@
-# 韧性云图（Resilience Atlas）
+# 城乡规划数据展示平台（Resilience Atlas）
 
 面向城市规划工作室的空间数据共享、发现与可视化平台。项目将原单页 Supabase Demo 重构为可独立部署的 React + FastAPI + PostGIS + MinIO 系统，同时保留无需服务器的浏览器本地工作台。
 
 ## 在线作品演示
 
-**[立即体验韧性云图](https://dayu-520.github.io/resilience-atlas/)**
+**(https://dayu-520.github.io/resilience-atlas/)**
 
 GitHub Pages 提供无需注册的纯前端展示版。可上传 GeoJSON、Shapefile ZIP 或 GeoTIFF，体验数据管理、地图可视化与样式配置；数据仅保存在访客当前浏览器中。完整多人协作版的部署方式见下文。
 
